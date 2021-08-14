@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and tables</title>
+
+</head>
+<body>
+
+    <h3>this is the table</h3>
+
+    <!-- Table -->
+
+    <Table border="1" cellpadding="5px" cellspacing="0">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>City</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Uttam Kumar</td>
+                <td>Science</td>
+                <td>Sasaram</td>
+                <td>89</td>
+            </tr>
+
+            <tr>
+                <td>Manish Kumar</td>
+                <td>Economics</td>
+                <td>Dehri-on-sone</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>Golu Kumar</td>
+                <td>Hindi</td>
+                <td>Patna</td>
+                <td>75</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <!-- Table end -->
+
+
+
+    <!-- Form start -->
+
+    <h2>Form</h2>
+
+    <form action="#">
+
+        <p>Name:
+
+            <input type="text" name="name" id="name">
+        </p>
+        <br>
+        <p>
+            <label for="date"> Date of Birth
+                <input type="date" name="Dob" id="dob">
+
+            </label>
+        </p>
+        <br>
+            <p>
+                <label for="Mob no"> Contact :
+                    <input type="number" name="mob" id="mob">
+
+                </label>
+            </p><br>
+
+
+
+            <p>
+                <label for="email"> Email:
+                    <input type="email" name="Dob" id="dob">
+
+                </label>
+            </p>
+
+        <p>
+            City
+                <select name="courses" id="courses">
+
+                    <option value="#">--Select the city--</option>
+                    <option value="#">Mumbai</option>
+                    <option value="#">Delhi</option>
+                    <option value="#">Kanpur</option>
+                    <option value="#">Chennai</option>
+                    <option value="#">Kolkatta</option>
+                </select>
+
+        </p><br>
+
+        <pre><input type="checkbox" name="declaration" id="">I hereby declare that the information given in this application 
+            is true and correct to the best of my knowledge and belief.
+            I also declare that if any information provided by me is 
+            found false, my candidature may be rejected at any point of time.
+        </pre>
+
+           <button type="submit">Submit </button>
+    </form>
+
+    <!-- form end -->
+
+
+</body>
+</html>
